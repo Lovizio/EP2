@@ -76,3 +76,17 @@ def aloca_navios(mapa, blocos):
                         mapa[i][coluna] = 'N'
                 alocado = True
     return mapa
+
+#Quarta Função
+def foi_derrotado(tabuleiro):
+   
+    for linha_atual in tabuleiro:
+        
+        for celula in linha_atual:
+            
+            if celula == 'N':
+                
+                return False
+
+  
+    return True
